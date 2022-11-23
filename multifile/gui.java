@@ -171,8 +171,6 @@ public class gui extends JFrame implements ActionListener {
             
         maingui.setSize(750,500);
         maingui.setVisible(true);
-        //JOptionPane.showOptionDialog(null, "Welcome to the Dr T-Rav's Encryptor","Quick Note!",
-        //JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE,null, options, options[0]);
         maingui.addWindowListener(new WindowAdapter() {// Quit the application
             public void windowClosing(WindowEvent e) {
                 System.exit(0);
